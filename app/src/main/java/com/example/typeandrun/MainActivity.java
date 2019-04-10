@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
     public boolean vaidate(){
         boolean isValid=true;
 
