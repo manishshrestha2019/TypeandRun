@@ -11,7 +11,6 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +63,7 @@
             style="@style/editTextCss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Purchase price $" />
+            android:text="Purchase price($):" />
 
         <EditText
             android:inputType="numberDecimal"
@@ -76,7 +75,7 @@
             style="@style/editTextCss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Engine Size(liter)" />
+            android:text="Engine Size(liter):" />
 
         <EditText
             android:inputType="numberDecimal"
@@ -85,6 +84,9 @@
             android:layout_height="wrap_content" />
 
         <Button
+            android:background="#FF9436"
+            android:textStyle="bold"
+            android:textColor="#426879"
             android:id="@+id/btnCreate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,18 +96,12 @@
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="200dp">
-
             <TextView
                 android:id="@+id/tvOutput"
-
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#E7950A"
                 />
-
-
         </android.support.v4.widget.NestedScrollView>
-
-
     </LinearLayout>
 </ScrollView>
